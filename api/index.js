@@ -19,7 +19,7 @@ mongoose
   .then(() => console.log("DB connection successful!"))
   .catch((err) => console.log(err));
 
-app(cors());
+app.use(cors());
 app.use(express.json());
 
 app.use("/api/auth", authRoute);
