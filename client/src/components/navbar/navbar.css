@@ -1,0 +1,22 @@
+.navbar {
+  color: white;
+  font-size: 14px;
+}
+
+.navbar .container {
+  padding: 0px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .container img {
+  height: 25px;
+}
+/*# sourceMappingURL=navbar.css.map */
